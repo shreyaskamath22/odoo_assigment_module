@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- Make Values -->
+    <record model="crm.make" id="crm_make1">
+        <field name="name">New</field>
+    </record>
+    <record model="crm.make" id="crm_make2">
+        <field name="name">Second Hand</field>
+    </record>
+    <record model="crm.make" id="crm_make3">
+        <field name="name">Old</field>
+    </record>
+
+    <!-- Model Values -->
+    <record model="crm.model" id="crm_model1">
+        <field name="name">Model-12</field>
+        <field name="make_name" ref="crm_make1"/>
+    </record>
+    <record model="crm.model" id="crm_model2">
+        <field name="name">Model-23</field>
+        <field name="make_name" ref="crm_make2"/>
+    </record>
+    <record model="crm.model" id="crm_model3">
+        <field name="name">Model-34</field>
+        <field name="make_name" ref="crm_make3"/>
+    </record>
+
+    <record model="crm.variant" id="crm_make1">
+        <field name="name">Red</field>
+        <field name="model_name" ref="crm_model1"/>
+    </record>
+    <record model="crm.variant" id="crm_make2">
+        <field name="name">Green</field>
+        <field name="model_name" ref="crm_model2"/>
+    </record>
+    <record model="crm.variant" id="crm_make3">
+        <field name="name">Blue</field>
+        <field name="model_name" ref="crm_model3"/>
+    </record>
+</odoo>

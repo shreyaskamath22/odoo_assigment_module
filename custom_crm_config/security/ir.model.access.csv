@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_crm_make_user,crm.make.user,model_crm_make,base.group_user,1,1,1,1
+access_crm_make_manager,crm.make.manager,model_crm_make,sales_team.group_sale_manager,1,1,1,1
+access_crm_make_salesman,crm.make.salesman,model_crm_make,sales_team.group_sale_salesman,1,1,1,1
+access_crm_make_report_user,crm.make.report.user,model_crm_make,base.group_user,1,1,1,1
+access_crm_model_user,crm.model.user,model_crm_model,base.group_user,1,1,1,1
+access_crm_model_manager,crm.model.manager,model_crm_model,sales_team.group_sale_manager,1,1,1,1
+access_crm_model_salesman,crm.model.salesman,model_crm_model,sales_team.group_sale_salesman,1,1,1,1
+access_crm_model_report_user,crm.model.report.user,model_crm_model,base.group_user,1,1,1,1
+access_crm_variant_user,crm.variant.user,model_crm_variant,base.group_user,1,1,1,0
+access_crm_variant_manager,crm.variant.manager,model_crm_variant,sales_team.group_sale_manager,1,1,1,1
+access_crm_variant_salesman,crm.variant.salesman,model_crm_variant,sales_team.group_sale_salesman,1,1,1,0
+access_crm_variant_report_user,crm.variant.report.user,model_crm_variant,base.group_user,1,0,0,0
